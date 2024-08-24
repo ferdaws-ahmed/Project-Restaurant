@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(226, 243, 243);
+}
+header{
+    background-color: rgb(153, 180, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0;
+    flex-direction: column;
+}
+.nav-logo .bx{
+    font-size: 80px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    background:linear-gradient(60deg,rgb(236, 6, 167),rgb(230, 18, 99),rgb(241, 233, 5),rgb(212, 208, 90));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-bar{
+     margin: 20px 0;
+}
+.nav-bar a{
+    display: block;
+    text-decoration: none;
+    font-size: 27px;
+    text-align: center;
+    margin: 20px;
+    padding: 5px 50px;
+    background-color:rgb(118, 158, 222);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.nav-bar a:hover{
+    background-color:rgb(147, 174, 218);
+}
+
+/* header part ends here */
+
+/* main part start here */
+
+main .section{
+    background-image: url(images/restaurant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+}
+.section-content h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    background-color: rgb(188, 219, 14);
+    display: inline-block;
+    margin-top: 100px;
+    border-radius: 8px;
+    padding: 0 10px;
+    background: linear-gradient(90deg, rgb(233, 19, 55,0.6),rgb(197, 188, 188,0.6),rgb(205, 21, 52,0.6));
+}
+.section-content p{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(150, 192, 87);
+    border-radius: 6px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.section-content .btn{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.section-content .btn:hover{
+    background-color: rgb(169, 169, 65);
+    cursor: pointer;
+}
