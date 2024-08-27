@@ -40,5 +40,39 @@ header{
              'card-1 card-2 card-3 card-4'
     ;
 }
+/* content part end */
 
+
+/* contact part start */
+
+.location{grid-area: location;}
+.address{grid-area: address;}
+.location-address{
+    display: grid;
+    grid-template-areas: 
+           'location location location address'
+    ;
+}
+
+/* contact part end */
 /* main part ends here */
+
+/* Footer section start */
+
+   footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   }
+   footer p{
+    margin-left: 100px;
+   }
+   footer .social-bar{
+    margin-right: 100px;
+   }
+   footer .social-bar i{
+    margin: 10px;
+   }
+
+/* Footer section end */

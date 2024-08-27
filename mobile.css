@@ -55,6 +55,7 @@ main .section{
     /* height: 100vh; */
     text-align: center;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .section-content h1{
     color: white;
@@ -132,3 +133,69 @@ main .section{
 .food-card:hover{
     transform: scale(1.05);
 }
+
+/* content section end */
+
+/* location and address section start */
+
+.location-address{
+    background-color: rgb(99, 99, 209);
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.location-address .map{
+    width: 97%;
+    height: 350px;
+    padding-top: 20px;
+}
+.location-address .address{
+    width: 97%;
+    height: 350px;
+    color: white;
+    background-color:rgb(124, 124, 152) ;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-address .address address,.phone-numb,.open {
+    margin-top: 20px;
+}
+
+
+/* location and address section end */
+/* main section end */
+
+/* footer section start */
+
+footer{
+    background-color: rgb(21, 6, 69);
+    width: 100%;
+    height: 170px;
+    color: white;
+    text-align: center;
+}
+footer .cpright p{
+    padding-top: 50px;
+}
+.social-bar{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.social-bar i{
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px;
+    padding: 5px;
+    transition: .4s;
+}
+.social-bar i:hover{
+    background-color: gray;
+    transform: scale(1.2);
+}
+
+/* footer section end */
