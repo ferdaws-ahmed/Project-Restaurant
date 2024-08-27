@@ -30,4 +30,15 @@ header{
     font-size: 150px;
     padding: 20px 50px;
 }
+.food-card-1{grid-area: card-1;}
+.food-card-2{grid-area: card-2;}
+.food-card-3{grid-area: card-3;}
+.food-card-4{grid-area: card-4;}
+.food-item{
+    display: grid;
+    grid-template-areas: 
+             'card-1 card-2 card-3 card-4'
+    ;
+}
+
 /* main part ends here */
